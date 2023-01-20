@@ -1,0 +1,15 @@
+@import "../../../index.scss";
+
+
+.header {
+    display: flex;
+    background-color: $base-color;
+    padding: 10px 20px;
+    font-size: 35px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header__icon {
+    font-size: 35px;
+}

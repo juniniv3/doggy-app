@@ -1,0 +1,14 @@
+$base-color: #564D4A;
+$body-color: #F7F4F3;
+$base-font: #fff;
+
+body {
+    background-color: $body-color;
+    margin: 0;
+    padding: 0;
+}
+
+* { 
+    color: $base-font;
+    font-family: 'Roboto', sans-serif;
+}
