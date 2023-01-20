@@ -23,3 +23,15 @@ steps:
 - script: |
     npm run test
   displayName: 'Unit test ok'
+
+- script: |
+    npm run test
+  displayName: 'Unit test ok'
+
+- script: |
+    npx playwright install --with-deps
+  displayName: "Install Playwright Browsers"
+ 
+- script: |
+    npx playwright test
+  displayName: "Run Playwright tests"
