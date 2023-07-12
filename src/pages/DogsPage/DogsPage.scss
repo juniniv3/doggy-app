@@ -5,6 +5,7 @@
     padding: 30px;
     position: relative;
     align-items: center;
+    flex: 1;
 }
 
 .dogsPage__dogCardContainer {
@@ -15,7 +16,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     align-items: center;
-    height: 630px;
+    height: 100%;
 }
 
 
